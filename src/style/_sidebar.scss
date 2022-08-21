@@ -1,0 +1,56 @@
+.shop-product-fillter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 0 30px;
+  .text-brand {
+    color: #3bb77e !important;
+  }
+}
+
+.search-input {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 2px solid #bce3c9;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.sidebar-widget {
+  position: relative;
+  padding: 30px;
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 15px rgb(0 0 0 / 5%);
+  box-shadow: 5px 5px 15px rgb(0 0 0 / 5%);
+  .section-title {
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+    font-size: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: end;
+    margin-bottom: 24px;
+    position: relative;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  label,
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+}
